@@ -18,7 +18,7 @@ public class CarSkeleton {
         runEngine();
     }
 
-    public void runEngine() {
+    protected void runEngine() {
         System.out.println(name + " is running the engine");
     }
 }
