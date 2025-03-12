@@ -22,15 +22,21 @@ public class Car {
     }
 
     public String startEngine() {
-        return getClass().getSimpleName() + ": The car's engine is starting";
+        String message = "the car's engine is starting";
+        System.out.println(getClass().getSimpleName() + ": " + message);
+        return message;
     }
 
     public String accelerate() {
-        return getClass().getSimpleName() + ": The car is accelerating";
+        String message = "the car is accelerating";
+        System.out.println(getClass().getSimpleName() + ": " + message);
+        return message;
     }
 
     public String brake() {
-        return getClass().getSimpleName() + ": The car is breaking";
+        String message = "the car is braking";
+        System.out.println(getClass().getSimpleName() + ": " + message);
+        return message;
     }
 
     public String toString() {
