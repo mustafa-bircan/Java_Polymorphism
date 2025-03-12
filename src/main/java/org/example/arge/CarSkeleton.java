@@ -9,6 +9,14 @@ public class CarSkeleton {
         this.description = description;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
     public void startEngine() {
         System.out.println(name + " is starting the engine");
     }
