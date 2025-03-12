@@ -13,6 +13,18 @@ public class HybridCar extends CarSkeleton {
         this.cylinders = cylinders;
     }
 
+    public double getAvgKmPerLitre() {
+        return avgKmPerLitre;
+    }
+
+    public double getBatterySize() {
+        return batterySize;
+    }
+
+    public int getCylinders() {
+        return cylinders;
+    }
+
     @Override
     public void startEngine() {
         System.out.println("Hybrid car engine is starting with battery size " + batterySize + " and " + cylinders + " cylinders.");
