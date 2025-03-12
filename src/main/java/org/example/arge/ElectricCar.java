@@ -11,6 +11,14 @@ public class ElectricCar extends CarSkeleton {
         this.batterySize = batterySize;
     }
 
+    public double getAvgKmPerCharge() {
+        return avgKmPerCharge;
+    }
+
+    public int getBatterySize() {
+        return batterySize;
+    }
+
     @Override
     public void startEngine() {
         System.out.println("Electric car is powering on with battery size " + batterySize);
